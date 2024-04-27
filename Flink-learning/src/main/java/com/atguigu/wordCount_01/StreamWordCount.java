@@ -10,6 +10,7 @@ import org.apache.flink.util.Collector;
 
 // 无界的数据类
 public class StreamWordCount {
+
     public static void main(String[] args) throws Exception {
 
 
