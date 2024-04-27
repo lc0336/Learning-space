@@ -1,4 +1,4 @@
-package com.atguigu.chapter02;
+package com.atguigu.wordCount_01;
 
 
 import org.apache.flink.api.common.typeinfo.Types;
@@ -11,11 +11,14 @@ import org.apache.flink.util.Collector;
 
 import java.util.Arrays;
 
+// 有界的数据流
 public class BoundedStreamWordCount {
     public static void main(String[] args) throws Exception {
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
+        // 设置流还是批
+        //env.setRuntimeMode(RuntimeExecutionMode.BATCH);
 
         DataStreamSource<String> lineDSS = env.readTextFile("D:\\data\\idea\\learning-space\\Flink-learning\\input\\words.txt");
 

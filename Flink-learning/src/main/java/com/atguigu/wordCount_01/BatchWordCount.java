@@ -1,4 +1,4 @@
-package com.atguigu.chapter02;
+package com.atguigu.wordCount_01;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.ExecutionEnvironment;

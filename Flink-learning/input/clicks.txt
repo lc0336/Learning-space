@@ -1,0 +1,6 @@
+mary,./hone,1000
+alice,./cart,2000
+bob,./prod?1d=100,1000
+alice,./cart,4000
+alice,./hone,5000
+alice,./home,6000
