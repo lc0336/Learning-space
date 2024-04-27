@@ -3,8 +3,11 @@
 按照如下图来执行：
 
 
-![learning](D:\data\idea\learning-space\src\main\resources\learning.png "learning")
+![learning](https://github.com/lc0336/learning-space/blob/master/src/main/resources/learning.png "learning")
 
+
+
+![contents](https://github.com/lc0336/learning-space/blob/master/src/main/resources/learning.png)
 
 ### 图片地址：
 https://www.processon.com/view/link/635cfcb75653bb070e1e17d7
