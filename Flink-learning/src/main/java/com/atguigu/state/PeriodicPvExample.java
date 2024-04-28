@@ -28,7 +28,6 @@ public class PeriodicPvExample {
         stream.print("input");
         // 统计每个用户的 pv，隔一段时间（10s）输出一次结果
         stream.keyBy(data -> data.user).process(new PeriodicPvResult()).print();
-
         env.execute();
     }
 
